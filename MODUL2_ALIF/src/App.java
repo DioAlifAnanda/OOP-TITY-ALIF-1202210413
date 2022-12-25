@@ -1,9 +1,9 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        TransportasiAir ta = new TransportasiAir(4,20000);
-        ta.informasi();
-        ta.berlayar();
-        ta.berlabu();
+        TransportasiAir trans = new TransportasiAir(4,20000);
+        trans.informasi();
+        trans.berlayar();
+        trans.berlabu();
         System.out.println("\n");
         Sampan sam = new Sampan(jumlahkursi : 20,biaya :50000,layar: 2);
         sam.informasi();
