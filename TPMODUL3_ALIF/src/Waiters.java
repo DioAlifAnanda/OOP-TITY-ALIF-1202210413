@@ -8,9 +8,6 @@ public class Waiters implements Runnable {
         this.customerID = customerID;
         this.orderQty = orderQty;
     }
-
-
-
     @Override
     public void run() {
         
